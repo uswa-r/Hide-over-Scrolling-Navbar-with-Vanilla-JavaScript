@@ -21,3 +21,12 @@ navToggle.addEventListener('click', function() {
         linksHeight.style.height = 0;
     }
 });
+//dynamically close links with  height ends here
+
+//fixed navbar
+const navbar = document.getElementById(nav);
+const topLink = document.querySelector('.top-link');
+
+window.addEventListener('scroll', function() {
+    const scrollHeight = window.pageXOffset;
+});
