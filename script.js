@@ -29,4 +29,9 @@ const topLink = document.querySelector('.top-link');
 
 window.addEventListener('scroll', function() {
     const scrollHeight = window.pageXOffset;
+    const navHeight = navbar.getBoundingClientRect().height;
+
+    if (scrollHeight > navHeight) {
+        navbar.classList.add('fixed-nav');
+    }
 });
