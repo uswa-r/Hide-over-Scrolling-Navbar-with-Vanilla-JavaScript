@@ -275,7 +275,7 @@ nav {
 }
 
 .logo {
-    height: 50px;
+    height: 80px;
 }
 
 .links-container {
@@ -350,7 +350,7 @@ nav {
 
 header {
     min-height: 100vh;
-    background: linear-gradient(rgba(153, 74, 9, 0.616), rgba(107, 107, 107, 0.7)), url(./assets/a.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(211, 98, 5, 0.616), rgba(5, 5, 5, 0.877)), url(./assets/a.jpg) center/cover no-repeat;
 }
 
 .banner {
